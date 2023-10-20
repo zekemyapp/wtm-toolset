@@ -9,18 +9,6 @@
     },
     "content_scripts": [
         {
-            "js": ["scripts/content.js"],
-            "matches": [
-                "https://whatthemovie.com/shot/random"
-            ]
-        },
-        {
-            "js": ["scripts/shot.js"],
-            "matches": [
-                "https://whatthemovie.com/shot/*"
-            ]
-        },
-        {
             "js": ["scripts/feature.js"],
             "matches": [
                 "https://whatthemovie.com/overview/*"
