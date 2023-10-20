@@ -19,6 +19,12 @@
             "matches": [
                 "https://whatthemovie.com/shot/*"
             ]
+        },
+        {
+            "js": ["scripts/feature.js"],
+            "matches": [
+                "https://whatthemovie.com/overview/*"
+            ]
         }
       ]
 }
